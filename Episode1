@@ -1,0 +1,187 @@
+# MLI
+Part 1: “Prime Suspect”
+	Location 10: Crime Scene
+	Scene 10: Talk to Mayor Mare and Ms. and Mr. Rich.
+		Profile 101: Twilight
+		Profile 102: Mayor Mare
+		Profile 103: Ms. and Mr. Rich
+		Profile 104: Gent Clerk
+		Profile 105: “Prime”
+	Scene 12: Search crime scene.
+		Evidence 121: Rock
+		Evidence 122: Red Hair
+		Evidence 123: Torn Fabric
+		Evidence 124: Small Hoofprints
+		Evidence 125: Destroyed thing
+		Evidence 126: Broken windows
+		Evidence 127: Charred walls
+	Scene 13: Talk to Gent Clerk.
+		Topic 131: Last Night
+			Evidence 131: Pony in Black
+		Topic 132: Apple Shortage
+			Evidence 132: Bad Apples
+		Topic 133: Broken Machine (Available with E125)
+			Evidence 133: Broken Machine (Update from E125)
+		Topic 134: Hoofprints (Available with E124)
+			Evidence 134: Small Hoofprints not from thief (Update from E124)
+	Scene 14: Talk to “Prime”.
+		Topic 141: Last Night (Available with “prime's” name)
+		Evidence 141: Red Hair (Update from E122)
+		Evidence 142: Torn Fabric (Update from E123)
+	Scene 16: Talk to Mayor Mare again.
+		Profile 161: Weather Mare
+		Location 16: Ms. Kitty's home.
+	Scene 18: Talk to Ms. Kitty.
+		Topic 181: Weather
+		Topic 182: Bad Apples
+	Scene 19: Talk to weather mare.
+		Topic 191: Last Night
+			Evidence 191: Pegasus in black clothes
+
+
+Part 2: Apple Sabotage Part A
+	Location 20: Farm.
+	Scene 20: Talk to Applejack.
+		Topic 201: Bad Apples
+			Evidence 201: Poisoned Apples
+		Topic 202: Poisoned Apples (Available with Topic 201)
+		Topic 203: Flim and Flam's suspicious arrival (Available with Topic 202)
+			Profile 201: Apple Mash
+			Profile 202: Applesauce
+	Scene 21: Talk to Apple Mash.
+		Topic 211: Poisoned Apples
+		Topic 212: Flim and Flam's suspicious arrival
+	Scene 22: Search Farm.
+		Evidence 221: Poisoned Apples
+		Evidence 222: More Small Hoofprints
+		Evidence 223:
+		Evidence 224:
+	Location 24: Flim and Flam's Place
+	Scene 24: Search around Flim and Flam.
+		Evidence 241: Even More Small Hoofprints
+		Evidence 242: Wrench
+		Evidence 243: Red Hair
+	Scene 25: Talk to Flim and Flam
+		Profile 251: Flim and Flam
+		Topic 251: Last Night
+		Topic 252: Footprints (Unlocked with E241)
+			Evidence 422: Filly afoot
+
+
+Part 3: Exonerate “Prime” Interlude
+	Location 30: Town Hall
+	Scene 30: Go to the mayor to get a search warrant.
+		Topic 301: Warrant
+			Profile 301: Jet Set
+			Profile 302: Warm Heart
+			Profile 303: Ms. Kitty
+	Interrogation 32: Convince Jet Set.
+		Topic 321: No
+	Interrogation 33: Convince Warm Heart.
+		Topic 331: Red Hair
+			Statement 3311: Isn't it obvious?
+			Statement 3312: She was at the crime scene.
+			Statement 3313: She was also visibly angry.
+			Statement 3313: They even found her hair by the broken machine. (Contradiction with E141)
+			Statement 3314: There is no way it couldn't be her.
+		Topic 332: Tall tales (Available with S3313 Contradiction)
+			Statement 3321: Nevertheless, she did destroy the store.
+			Statement 3322: Prime probably went to the back of the building and crushed the machine with a wrench she found .
+			Statement 3323: When she heard the clerk coming, she then ran around the building. (Contradiction with E191)
+			Statement 3324: She then broke the front windows with the rocks.
+			Statement 3325: Prime ought to be locked up for what she's done.
+		Topic 333: Who else could have done it? (Available with S3323 Contradiction)
+			Statement 3331: The fact still stands, she committed the crime.
+			Statement 3332: She was there and she was mad.
+			Statement 3333: She deserves everything she gets. After all who else would have vandalized the store? (Contradiction with P203)
+		Evidence 331: Letter from Warm Heart (Available with S3333 contradiction)
+	Interrogation 34: Convince Ms. Kitty.
+		Topic 341: Uncooperative
+			Statement 3411: A vandal shouldn't go free.
+			Statement 3412: The arsonist's guilt was proven conclusively.
+			Statement 3412B: She burnt down the entire store. (contradiction with  E127)
+			Statement 3413: I will not allow this criminal to go unpunished.
+		Topic 342: I know (Available with S3412B Contradiction)
+			Statement 3421: Of course I know what I'm talking about!
+			Statement 3422: First, she broke the thing in the back.
+			Statement 3423: Then, she went to the front and broke the front windows.
+			Statement 3424: Then she flew off. (contradiction with P105)
+		Topic 343: Torn Fabric (Available with S3424 Contradiction)
+			Statement 3431: Okay, so I may have a few things wrong, but she still did do it.
+			Statement 3432: The clerk saw her there.
+			Statement 3433: And her cloak ripped off while she destroyed the machine. (contradiction with E123)
+			Statement 3434: She must have done it.
+		Evidence 341: Letter from Ms. Kitty (Available with S3433 Contradiction)
+
+
+Part 4: Apple Sabotage Part B
+	Scene 40: Search Flim and Flam's place.
+		Evidence 401: Poisoned apples #2
+		Evidence 402: 
+	Scene 42: Talk to Flim and Flam.
+		Topic 421: Poisoned Apples (Unlocked with E401)
+			Evidence 421: Poisoned apples #2 (Update to E401)
+			Evidence 422: Vague description of Apple Mash
+	Confrontation 44: Talk to Apple Mash.
+		Topic 441: They poisoned their own apples as a test. (Contradiction with E421 followed by E422)
+		Topic 442: Why would I poison our apples?  (Contradiction with E224)
+		Topic 443: What proof do you have? (Contradiction with E402 followed by E223)
+
+
+Part 5: School Troubles
+	Location 50: Schoolhouse
+	Scene 51: Talk to Applesauce
+		Topic 511: Yesterday
+		Topic 512: Blackmail (Available with E521 and locked by E552)
+			Evidence 511: Diamond Inspector
+	Scene 52: Talk to Applebloom
+		Topic 521: Yesterday
+		Topic 522: Diamond has something on her (Cheerilee)
+		Topic 523: Small Heart's Camera (Available with E542)
+			Evidence 521: Blackmail
+	Scene 53: Talk to Under Suspicion
+		Topic 531: Yesterday
+		Topic 532: The Locket (Available with E571)
+			Evidence 531: Prime's Name (Update from E551)
+			Evidence 532: Diamond Thief
+	Scene 54: Talk to Small Heart
+		Topic 541: Yesterday
+		Topic 542: Diamond (Available with E532 and locked by E553)
+			Evidence 541: Diamond Inspector
+		Topic 543: Camera (Available with E552)
+			Evidence 542: Lent Camera (Update from E552)
+	Scene 55: Talk to Diamond Tiara
+		Topic 551: Yesterday
+		Topic 552: Confiscate thing (Available with T522 and Cheerilee)
+			Evidence 551: Locket
+		Topic 553: Diamond Thief (Available with E532)
+			Evidence 552: Camera
+			Evidence 553: Thing 2
+		Topic 554: Diamond Inspector (Available with E511)
+			Evidence 554: Flower?
+			Evidence 555: Match
+			Evidence 556: Bag of poisoned apples
+	Scene 57: Talk to Cheerilee.
+		Topic 571: The kids
+			Profile 571: Applesauce
+			Profile 572: Applebloom
+			Profile 573: Under Suspicion
+			Profile 574: Small Heart
+			Profile 575: Diamond Tiara
+		Topic 572: I think that's Under Suspicion's locket (Available with E551)
+			Evidence 571: Under Suspicion's Locket (Update from E551)
+
+
+Part 6: “Prime” Information Interlude
+	Location 60: <Insert “Prime's” location>.
+	Scene 60: Talk to “Prime”.
+		Topic 601: Last Night (Available with E531)
+			Evidence 601: Warm Heart was there
+			Evidence 602: Pamphlet of Warm Heart
+			Evidence 603: 
+
+
+Part 7: Heartbreak
+	Scene 70: Go to the Town Hall to learn where Warm Heart is.
+	Scene 72: Go to  the Hearts' home.
+	Scene 74: Confront Warm Heart.
